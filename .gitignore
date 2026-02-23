@@ -1,0 +1,107 @@
+# ============================================================
+# .gitignore – Portafolio Académico FIUBA
+# Compatible con C, C++, Python, Java y proyectos generales
+# ============================================================
+
+# ----------------------------
+# Archivos del sistema
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------
+# Editores e IDEs
+# ----------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ----------------------------
+# C / C++
+# ----------------------------
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dylib
+*.d
+*.gch
+*.pch
+
+# Directorios de compilación
+build/
+bin/
+out/
+
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+*.whl
+.eggs/
+
+# Entornos virtuales
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# ----------------------------
+# Java
+# ----------------------------
+*.class
+*.jar
+*.war
+*.ear
+target/
+.classpath
+.project
+.settings/
+
+# ----------------------------
+# Logs y archivos temporales
+# ----------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# ----------------------------
+# Dependencias
+# ----------------------------
+node_modules/
+vendor/
+
+# ----------------------------
+# Variables de entorno y secretos
+# ----------------------------
+.env
+.env.*
+*.secret
+secrets/
+
+# ----------------------------
+# Cobertura de tests
+# ----------------------------
+coverage/
+.coverage
+htmlcov/
+*.lcov
