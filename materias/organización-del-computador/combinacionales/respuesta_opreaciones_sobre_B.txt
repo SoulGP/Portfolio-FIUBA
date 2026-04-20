@@ -1,0 +1,5 @@
+El circuito Inversor 4 realiza dos operaciones principales sobre el binario B para obtener su inverso en complemento a 2:
+
+    -Invierte cada bit de B (NOT bit a bit). Esto da como resultado el complemento a 1 de B.
+
+    -Suma 1 al resultado anterior. Esto convierte el complemento a 1 en el complemento a 2, que es el negativo de B en este sistema de representación.
