@@ -1,0 +1,1 @@
+[{espada-12-[]},{basto-1-[]},{oro-4-[]},{oro-6-[]},{copa-7-[]}][{espada-12-[]},{basto-1-[{oro-6-[]}]},{oro-4-[]},{copa-7-[]}]
