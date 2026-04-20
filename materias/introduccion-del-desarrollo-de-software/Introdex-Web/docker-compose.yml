@@ -1,0 +1,20 @@
+services:
+  backend:
+    build:
+      context: ./IntroDex
+      dockerfile: Dockerfile
+    container_name: introdex-backend
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./IntroDex-Front
+      dockerfile: Dockerfile
+    container_name: introdex-frontend
+    depends_on:
+      - backend
+    network_mode: host
+    restart: unless-stopped
+
