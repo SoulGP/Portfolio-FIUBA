@@ -6,7 +6,7 @@
 
 ---
 
-## Sobre mí
+## Sobre mí 
 
 Soy **[Tu Nombre]**, estudiante de Ingeniería en Informática en la **Facultad de Ingeniería de la Universidad de Buenos Aires (FIUBA)**.
 
